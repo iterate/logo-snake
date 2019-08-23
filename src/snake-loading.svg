@@ -1,0 +1,50 @@
+<svg width="512" height="512" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/">
+    <rect x="0" y="0" width="170.666666667" height="170.666666667" style="fill:rgb(0,255,0);">
+    <animate id="animation1"
+             attributeName="opacity"
+             from="0" to="1" dur="1s"
+             begin="animation8.end" />
+    </rect>
+    <rect x="170.666666667" y="0" width="170.666666667" height="170.666666667" style="fill:rgb(0,255,0);">
+    <animate id="animation2"
+             attributeName="opacity"
+             from="0" to="1" dur="1s"
+             begin="animation1.end" />
+    </rect>
+    <rect x="341.333333334" y="0" width="170.666666667" height="170.666666667" style="fill:rgb(0,255,0);">
+    <animate id="animation3"
+             attributeName="opacity"
+             from="0" to="1" dur="1s"
+             begin="animation2.end" />
+    </rect>
+    <rect x="0" y="170.666666667" width="170.666666667" height="170.666666667" style="fill:rgb(0,255,0);">
+    <animate id="animation4"
+             attributeName="opacity"
+             from="0" to="1" dur="1s"
+             begin="animation3.end" />
+    </rect>
+    <rect x="341.333333334" y="170.666666667" width="170.666666667" height="170.666666667" style="fill:rgb(0,255,0);" opacity="0">
+    <animate id="animation5"
+             attributeName="opacity"
+             from="0" to="1" dur="1s"
+             begin="animation4.end" />
+    </rect>
+    <rect x="0" y="341.333333334" width="170.666666667" height="170.666666667" style="fill:rgb(0,255,0);">
+    <animate id="animation6"
+             attributeName="opacity"
+             from="0" to="1" dur="1s"
+             begin="animation5.end" />
+    </rect>
+    <rect x="170.666666667" y="341.333333334" width="170.666666667" height="170.666666667" style="fill:rgb(0,255,0);">
+    <animate id="animation7"
+             attributeName="opacity"
+             from="0" to="1" dur="1s"
+             begin="0s;animation6.end" />
+    </rect>
+    <rect x="341.333333334" y="341.333333334" width="170.666666667" height="170.666666667" style="fill:rgb(0,255,0);" opacity="0">
+    <animate id="animation8"
+             attributeName="opacity"
+             from="0" to="1" dur="1s"
+             begin="animation7.end" />
+    </rect>
+</svg>  
